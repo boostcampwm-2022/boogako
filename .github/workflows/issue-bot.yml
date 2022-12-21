@@ -1,0 +1,37 @@
+name: Creating an issue on 10am every weekday
+on:
+    schedule:
+        - cron: 0 1 * * 1-5
+
+jobs:
+    create_issue:
+        name: Create issue
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+        steps:
+            - name: Get current date
+              id: date
+              run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
+            - name: Create team sync issue
+              uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
+              with:
+                  assignees: "yscriuf"
+                  labels: "일일스크럼"
+                  title: "일일스크럼 - ${{ steps.date.outputs.date }}"
+                  body: |
+                      아래 양식에 맞춰 코멘트를 작성해주세요.
+                      ```
+                      ### 오늘의 기분
+                      - 
+                      ### 어제 한 일
+                      - 어제 남긴 코멘트 링크
+                          - [하지 않았다면 이유를 적기]
+                      -
+                      ### 오늘 할 일
+                      - [ ] 
+                      ```
+                  pinned: false
+                  close-previous: false
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
