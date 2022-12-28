@@ -1,5 +1,7 @@
 # 부각코
 
+!!현재 정원 마감이에욥!!
+
 개더 URL: https://app.gather.town/invite?token=JhoXYfCUQxi2_ZKhz1TU
 
 오픈카톡방: https://open.kakao.com/o/gAuZIvUe
