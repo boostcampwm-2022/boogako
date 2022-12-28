@@ -1,16 +1,13 @@
 # 부각코
 
 ### !!현재 정원 마감이에욥!!
-개더 특성상 25명 초과해서 수용을 하려면 유료 결제를 해야 해서 현재 25명 정원으로 운영하고 있어요. 
+```
+개더 특성상 25명 초과 수용을 하려면 유료 결제를 해야 해서 현재 25명 정원으로 운영하고 있어요. 
 지금 운영되는 부각코가 잘 활성화된다고 느껴지면 부각코 개더를 Scale-Out 할 계획도 있어요.
 궁금하신점 있으시면 Slack DM 주세요! - J137 이동재
+```
 
-
-개더 URL: https://app.gather.town/invite?token=JhoXYfCUQxi2_ZKhz1TU
-
-오픈카톡방: https://open.kakao.com/o/gAuZIvUe
-
-위키: https://boogako.notion.site/Boogako-271bc1f457404450b4110a014bef1888
+[개더 URL](https://app.gather.town/invite?token=JhoXYfCUQxi2_ZKhz1TU) | [오픈카톡방](https://open.kakao.com/o/gAuZIvUe) | [위키](https://boogako.notion.site/Boogako-271bc1f457404450b4110a014bef1888)
 
 ### 목표 취지
 우리들만의 학습 환경을 구성하자!
